@@ -1,0 +1,16 @@
+{
+    "name": "nixze/forms-generator",
+    "autoload": {
+        "psr-4": {
+            "dbGenerator\\": "src/"
+            
+        }
+    },
+    "authors": [
+        {
+            "name": "Nyxze",
+            "email": "manach.alexy@gmail.com"
+        }
+    ],
+    "require": {}
+}
