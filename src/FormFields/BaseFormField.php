@@ -29,6 +29,6 @@ class BaseFormField
     public function __toString(): string
     {
         $attributes = $this->getAttributeList();
-        return "<input $attributes name = \{$this->fieldName}\">";
+        return "<input $attributes name = \"{$this->fieldName}\">";
     }
 }
